@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+ <html>
+ 
+ <head>
+<title> media querry 2 </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<style type="text/css">
+
+*{
+	box-sizing:border-box;
+	
+	}
+		
+
+
+
+		.text1{
+		text-shadow:100px 30px 4px rgb(255,255,0),5px 10px 3px red;
+		}
+		
+		.box{
+		width:300px;
+		height:300px;
+		box-shadow:10px 12px 6px #808080;
+		border:2px dotted green;
+		
+		}
+		.info{
+		width:200px;
+		height:300px;
+		border:2px solid green;
+		text-align:center;
+		background-color:rgba(0,255,0,0.4);
+		box-shadow:5px 2px 6px #808080;
+		border-radius:30%;
+	
+		
+		}
+		.wrapper{
+		display:flex;
+		justify-content:space-around;
+		}
+		
+		.info p{
+		margin-top:150px;
+		}
+	.text2 p::first-letter{
+		font-size:32px;
+		font-weight:bold;
+		color:red;
+		txet-transform:uppercase;
+	}
+		
+		#text3 p::first-line{
+		color:red;
+		}
+		.info:hover{
+		background-color:red;
+		border-radius:50%;
+		border:0px; 
+		}
+		
+		.container{
+		display: flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		
+		}
+		
+		.item{
+		width:25%;
+		background-color:#ccc;
+		min-height:200px;
+		border:5px solid white;
+		
+		}
+		
+		@media screen and (max-width:768px){
+	.item{
+	background-color:cyan;
+	width:50%;
+	}
+	}
+	
+		@media screen and (max-width:480px){
+	.item{
+	background-color:blue;
+	width:100%;
+	}
+	
+	h1{
+	font-size:18px;
+	}
+	
+	#picture{
+	display:none;
+	}
+	}
+	
+	#picture{
+	width:100%;
+	}
+</style>
+ </head>
+ 
+ <body>
+		<h3 class="text1">Moat Academy For Developers</h3>
+		
+		<div class="box">
+		<p>Welcome</p>
+		</div>
+		<br>
+		<div class="wrapper">
+			<div class="info"><p>sign up</p></div>
+				<div class="info"><p>Refer A Friend</p></div>
+					<div class="info"><p>Get Paid</P></div>
+		
+		</div>
+
+
+		<div class="text2">
+		<p>DAILY POST reporst that there have been speculations that the defection is really bad</p>
+		<p>DAILY POST reporst that there have been speculations that the defection is really bad</p>
+		</div>
+		
+		<div id="text3">
+		<p>DAILY POST reporst that there have been speculations that the defection is really bad
+		DAILY POST reporst tDAILY POST reporst that there have been speculations that the defection is really bad
+		DAILY POST reporst tDAILY POST reporst that there have been speculations that the defection is really bad
+		DAILY POST reporst tDAILY POST reporst that there have been speculations that the defection is really bad
+		DAILY POST reporst t</p>
+		</div>
+		
+		
+		<div class="container">
+		
+		<h1>Moat Academy For Developers</h1>
+		<img src="circlepic.png" alt="mypic" id="picture" />
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		<div class="item"></div>
+		
+		</div>
+		
+ <body>
+ 
+ 
+ 
+ </html>
